@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+}
+
+.logo{
+    margin-left: 1%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+
+
+}
+
+nav li{
+    list-style: none;
+    margin-right: 1%;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: #424247;
+
+}
+
