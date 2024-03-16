@@ -5,6 +5,14 @@ body{
 
 }
 
+#home{
+    color: #ff5402;
+}
+
+header{
+    max-width: 1440px;
+}
+
 header{
     max-width: 1200px;
     margin-left: auto;
@@ -34,10 +42,45 @@ nav li{
     margin-right: 1%;
 }
 
-nav a{
+nav a{  
     text-decoration: none;
     padding: 20px;
     color: #424247;
 
 }
 
+.container-2{
+    background-image: url('./images/logo.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1170px;
+    text-align: center;
+}
+
+
+h1{
+    padding-top: 106px;
+    font-size: 64px;
+    color: #fff;
+}
+
+
+.pra{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 24px;
+    margin-right: 247px;
+    margin-left: 247px;
+}
+
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+        text-align: center;
+    }
+    nav{
+        flex-direction: column;
+        margin-left: 90%;
+    }
+}
