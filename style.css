@@ -118,6 +118,7 @@ h1{
     padding: 16px 16px 16px 48px;
     border-radius: 8px;
     border: 0;
+
 }
 
 .banner{
@@ -129,6 +130,40 @@ h1{
     align-items: center;
     gap: 24px;
     border-radius: 8px;
-    
     background: rgba(255, 255, 255, 0.30);
+}
+
+.container-main-section{
+    display: flex;
+    margin-top: 6%;
+    margin-left: 14%;
+}
+
+h2{
+    font-size: 40px;
+    /* margin-right: 50%; */
+}
+
+h4{
+    color: #5a5a5a;
+    margin-right: 20%;
+}
+
+li{
+    margin-bottom: 16px;
+    color: #5a5a5a;
+}
+
+
+img{
+    margin-right: 17%;
+}
+
+.read-more{
+    background-color: #ff5402;
+    color: #fff;
+    padding: 14px 35px 13px 34px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
 }
